@@ -18,10 +18,10 @@ include_directories(${BOX2D_INCLUDE_DIR})
 file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 # Create executable
-add_executable(Rugby1v1 ${SOURCES})
+add_executable(carter ${SOURCES})
 
 # Link libraries
-target_link_libraries(Rugby1v1 
+target_link_libraries(carter 
     ${SFML_LIBRARIES}
     ${BOX2D_LIBRARIES}
 )
